@@ -15,10 +15,32 @@
         vertical-align: middle;
         line-height: 90px; 
       }
+      
+      .navigation {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-end;
+      }
+      @media all and (max-width: 800px) {
+        .navigation {
+          justify-content: space-around;
+        }
+      }
+      @media all and (max-width: 500px) {
+        .navigation {
+          flex-direction: column;
+        }
+      }
     </style>
   </head>
   <body>
-    <header></header>
+    <header>
+      <nav class="navigation">
+        <div>Home</div>
+        <div>Socials</div>
+        <div>Certificates</div>
+      </nav>
+    </header>
     <main>
       <div>
         <p style="font-family: -apple-system, BlinkMacSystemFont, sans-serif;">Hello</p>
