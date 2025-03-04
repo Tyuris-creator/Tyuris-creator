@@ -3,47 +3,25 @@
   <head>
     <title>My webpage</title>
     <meta charset=utf-8>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="This is my GitHub Pages site showcasing my certificates and information on how to contact me.">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <style>
-      body {
-        background-color: hsl(183, 77%, 74%);
-        text-align: center;
-        vertical-align: middle;
-        line-height: 90px; 
-      }
-      
-      .navigation {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: flex-end;
-      }
-      @media all and (max-width: 800px) {
-        .navigation {
-          justify-content: space-around;
-        }
-      }
-      @media all and (max-width: 500px) {
-        .navigation {
-          flex-direction: column;
-        }
-      }
-    </style>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <header>
       <nav class="navigation">
-        <div>Home</div>
-        <div>Socials</div>
-        <div>Certificates</div>
+        <div class="nav_button home"><button>Home</button></div>
+        <div class="nav_button socials"><button>Socials</button></div>
+        <div class="nav_button portfolio"><button>Portfolio</button></div>
       </nav>
     </header>
     <main>
       <div>
-        <p style="font-family: -apple-system, BlinkMacSystemFont, sans-serif;">Hello</p>
+        <p>Hello</p>
       </div>
     </main>
     <footer></footer>
