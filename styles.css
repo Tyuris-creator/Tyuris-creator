@@ -2,8 +2,9 @@
   src: url('SourGummy-Italic-VariableFont_wdth\,wght.ttf'); } 
 * {
 font-family: 'Gummy';
+font-weight: bold;
+font-size: large;
 }
-
 
 body {
   background-color: hsl(183, 77%, 74%);
@@ -23,6 +24,11 @@ body {
     margin: 5px;
     border-radius: 100%;
     transform: scale(1.2);
+}
+.but {
+  margin: 5px;
+  height: 70px;
+  border-radius: 25px;
 }
 .nav_button:hover{
     background-color: hsl(210, 59%, 76%);
