@@ -1,3 +1,10 @@
+@font-face {font-family: 'Gummy'; 
+  src: url('SourGummy-Italic-VariableFont_wdth\,wght.ttf'); } 
+* {
+font-family: 'Gummy';
+}
+
+
 body {
   background-color: hsl(183, 77%, 74%);
   vertical-align: middle;
