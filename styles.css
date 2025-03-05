@@ -45,3 +45,16 @@ body {
     flex-direction: column;
   }
 }
+
+.content {
+  text-align: center;
+}
+
+.none {
+  display: none;
+}
+
+#socials {
+  margin: 100px 25px 0 0;
+  text-align: center;
+}

@@ -10,18 +10,25 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
     <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <header>
         <div class="navigation">
-          <div class="nav_button home"><button class="but">Home</button></div>
-          <div class="nav_button socials"><button class="but">Socials</button></div>
-          <div class="nav_button portfolio"><button class="but">Portfolio</button></div>
+          <div class="nav_button home"><button data-page="home" class="but">Home</button></div>
+          <div class="nav_button socials"><button data-page="socials" class="but">Socials</button></div>
+          <div class="nav_button portfolio"><button data-page="portfolio" class="but">Portfolio</button></div>
+        </div>
+        <div id="greetings">
+          <p class="content">Hello, world!</p>   
         </div>
     </header>
     <main>
-      <div>
-        <p>Hello</p>
+      <div class="none" id="socials">
+          <a href="https://www.linkedin.com/in/tyuris"><i class="fa fa-linkedin-square" aria-hidden="true" style="color: black; font-size: 85px;"></i></a>
+          <a href="https://t.me/aint_got_no_mercy"><i class="fa fa-telegram" aria-hidden="true" style="color: black; font-size: 85px;" ></i></a>
+          <a href="https://github.com/Tyuris-creator"><i class="fa fa-github" aria-hidden="true" style="color: black; font-size: 85px;"></i></a>
       </div>
     </main>
     <footer></footer>
