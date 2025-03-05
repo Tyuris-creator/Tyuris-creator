@@ -58,3 +58,15 @@ body {
   margin: 100px 25px 0 0;
   text-align: center;
 }
+
+#home {
+  height: 100%; 
+  margin: 0; 
+  overflow: hidden;
+  overflow: clip; 
+  contain: content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: hsl(210, 59%, 76%);
+}
