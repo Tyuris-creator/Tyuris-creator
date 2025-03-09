@@ -38,6 +38,7 @@ body {
 .but:hover {
   background-color: hsl(34, 85%, 87%);
   transform: scale(95%);
+  transform: rotate(10deg);
 }
 @media all and (max-width: 800px) {
   .navigation {
